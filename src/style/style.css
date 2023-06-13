@@ -16,8 +16,6 @@
 }
 
 
-
-
 .hero-text {
     top: 0;
     left: 0;
@@ -85,3 +83,55 @@
     padding-top: 50px;
     font-size: 24px;
 }
+
+
+/* Responsive Handphone Start */
+@media (min-width: 320px) and (max-width: 767px){
+
+    .hero-text {
+        max-width: 100%;
+        max-height: 100%;
+        background-size: 400%;
+    }
+
+    .container-hero {
+        padding: 100px 40px;
+    }
+
+    .user-hero {
+        font-size: 35px;
+    }
+
+    .hero-description {
+        font-size: 50px;
+        max-width: 100%;
+        line-height: 45px;
+        height: 260px;
+    }
+
+    .gelombang {
+        width: 280px;
+        margin-left: 5px;
+    }
+
+    .rectangle {
+        margin: -90px 10px 0 -115px;
+        height: 47px;
+        width: 138px;
+    }
+
+    .hero-text .experience {
+        margin: -60px 40px;
+        font-size: 20px;
+    }
+
+    .project {
+        font-size: 28px;
+    }
+
+    .paragraf-project {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+}
+/* Responsive Handphone End */
