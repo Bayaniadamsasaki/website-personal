@@ -26,7 +26,7 @@
 }
 
 .container-hero {
-    padding: 211px 340px 100px 340px;
+    padding: 211px 340px 100px;
 }
 
 .user-hero {
@@ -135,76 +135,3 @@
     }
 }
 /* Responsive Handphone End */
-
-/* Resoponsive Laptop Start */
-@media (min-width: 1040px) and (max-width: 1920px) {
-    .container-hero {
-        padding: 211px 240px 100px 240px;
-        max-width: 100%;
-    }
-
-    .rectangle {
-        left: 89px;
-        top: 240px;
-    }
-
-    .hero-text .experience {
-        margin-left: 240px;
-        max-width: 100%;
-    }
-
-    .web-design {
-        margin: 0 65px 0 65px;
-        position: absolute;
-        width: 1084px;
-        height: 1813px;
-        left: calc(50% - 1184px/2);
-        top: 1302px;
-        background: linear-gradient(146.63deg, rgba(2, 132, 199, 0.1) 1.32%, rgba(236, 254, 255, 0) 66%), linear-gradient(325.76deg, rgba(2, 132, 199, 0.2) 3.68%, rgba(236, 254, 255, 0) 66.89%), #FFFFFF;
-box-shadow: 15px 24px 17px rgba(0, 0, 0, 0.01), 7px 11px 13px rgba(0, 0, 0, 0.02), 2px 3px 7px rgba(0, 0, 0, 0.02), 0px 0px 0px rgba(0, 0, 0, 0.02);
-        border-radius: 24px;
-    }
-
-    .container-text-web-design {
-        position: absolute;
-        left: 4%;
-        right: 9.5%;
-        top: 2.41%;
-        font-style: normal;
-    }
-
-    .text-heading {
-        bottom: 7.41%;
-        font-weight: 800;
-        font-size: 36px;
-        color: #004A75;
-    }
-
-    .description-web-design {
-        padding-top: 50px;
-        width: 850px;
-        height: 144px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 150%;
-    }
-
-    .intro-web-design {
-        font-weight: 700;
-    }
-
-    .container-project {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 12px;
-        width: 1130px;
-        height: 494px;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-}
-/* Responsive Laptop End */
