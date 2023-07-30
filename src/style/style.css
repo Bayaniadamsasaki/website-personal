@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--figtree);
+    scroll-behavior: smooth;
     
 }
 
@@ -66,7 +67,7 @@
 }
 
 .rectangle {
-    margin: 76px 209px;
+    margin: 76px -30px;
     position: absolute;
     z-index: -1;
     width: 262px;
@@ -102,6 +103,7 @@
     border-radius: 24px;
     background: linear-gradient(131deg, rgba(2, 132, 199, 0.10) 0%, rgba(236, 254, 255, 0.00) 100%), linear-gradient(310deg, rgba(2, 132, 199, 0.20) 0%, rgba(236, 254, 255, 0.00) 100%), #FFF;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.02), 2px 3px 7px 0px rgba(0, 0, 0, 0.02), 7px 11px 13px 0px rgba(0, 0, 0, 0.02), 15px 24px 17px 0px rgba(0, 0, 0, 0.01), 27px 43px 20px 0px rgba(0, 0, 0, 0.00), 42px 67px 22px 0px rgba(0, 0, 0, 0.00);
+    margin-bottom: 20px;
 }
 
 .container-card .container-text-web-design {
@@ -261,12 +263,12 @@
 
 .container-text-web-design .button-figma svg {
     width: 198px;
-height: 18px;
-margin-top: -18px;
-flex-shrink: 0;
-margin-left: -15px;
-fill: linear-gradient(90deg, rgba(12, 74, 110, 0.40) 0%, rgba(12, 74, 110, 0.00) 100%), radial-gradient(133.33% 133.33% at 50% -33.33%, rgba(12, 74, 110, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), rgba(103, 232, 249, 0.80);
-opacity: 0.6000000238418579;
+    height: 18px;
+    margin-top: -18px;
+    flex-shrink: 0;
+    margin-left: -15px;
+    fill: linear-gradient(90deg, rgba(12, 74, 110, 0.40) 0%, rgba(12, 74, 110, 0.00) 100%), radial-gradient(133.33% 133.33% at 50% -33.33%, rgba(12, 74, 110, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), rgba(103, 232, 249, 0.80);
+    opacity: 0.6000000238418579;
 }
 
 .container-text-web-design a {
@@ -328,6 +330,312 @@ opacity: 0.6000000238418579;
     font-weight: 700;
     line-height: 150%;
 }
+
+/* Content Third Start */
+.container-third {
+    width: 100%;
+    height: 1100px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(5, 31, 46, 0.53) 0%, rgba(0, 0, 0, 0.00) 100%), #091F2A;
+    background-image: url(/src/assets/Union.png);
+    background-size: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.container-third .header-text-third {
+    width: 100%;
+    height: 215px;
+    flex-shrink: 0;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-third .header-text-third h1 {
+    color:#ECFEFF;
+    font-family: Figtree;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    letter-spacing: -1.12px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-third .header-text-third p {
+    width: 721px;
+    color:#BAE6FD;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.container-third svg {
+    width: 130px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+/* .container-third .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} */
+
+.container-third .card-experience {
+    width: 84%;
+    height: 490px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(139deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #091F2A;
+    border: 1px solid #87CEFA;
+    box-shadow: 10px 10px 10px #87CEFA;
+}
+
+.card-experience img {
+    height: 90%;
+    margin: 5% 0 20% 30%;
+}
+
+.card-experience .gdsc-content {
+    padding: 50px 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.card-experience .gdsc-content img {
+    width: 60px;
+    height: 30px;
+}
+
+.card-experience .gdsc-content .gdsc-name {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    display: grid;
+    gap: 0.2rem;
+}
+
+.card-experience .gdsc-content .gdsc-name  h3 {
+    font-size: 20px;
+    color: #ECFEFF;
+}
+
+.card-experience .gdsc-content .gdsc-name p {
+    color: rgba(47, 165, 182, 1);
+    font-size: 17px;
+}
+
+.card-experience .partisipasi {
+    padding: 0 67px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-experience .partisipasi h4 {
+    color: #7DD3FC;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.card-experience .partisipasi p {
+    width: 560px;
+    color: #fff;
+    line-height: 140%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card-experience .respon {
+    padding: 0 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-experience .respon h4 {
+    color: #7DD3FC;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.card-experience .respon svg {
+    width: 19.584px;
+    height: 13.439px;
+    transform: rotate(-15deg);
+}
+
+.card-experience .respon ul {
+    padding: 0 20px;
+}
+
+.card-experience .respon ul li {
+    color: #CEF;
+    font-style: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 162px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #091F2A 0%, rgba(9, 31, 42, 0.00) 100%);
+}
+
+.container-four {
+    width: 100%;
+    height: 1200px;
+    flex-shrink: 0;
+    background: radial-gradient(27.10% 56.72% at 3.12% 97.15%, rgba(159, 18, 57, 0.20) 0%, rgba(82, 10, 29, 0.00) 100%), #280B14;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-four .container-card-experience {
+    position: absolute;
+    margin-top: -700px;
+    width: 84%;
+    height: 490px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(134deg, #3D0D1B 0%, rgba(61, 13, 27, 0.00) 100%), #280B14;
+    border: 1px solid tomato;
+    box-shadow: 10px 10px 10px tomato;
+}
+
+/* Logo Netcom */
+.container-four .container-card-experience .netcom-logo img {
+    width: 70px;
+    height: 60px;
+}
+
+.container-four .container-card-experience {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.netcom {
+    display: flex;
+    gap: 20px;
+}
+
+.container-four .container-card-experience .netcom-name {
+    padding: 5px 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.container-four .container-card-experience .netcom-name h3 {
+    color: #FFF;
+    font-style: 20px;
+}
+
+.container-four .container-card-experience .netcom-name p {
+    font-style: 17px;
+    color: #FDA4AF;
+}
+
+.container-four .container-card-experience .partisipasi-netcom {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-four .container-card-experience .partisipasi-netcom h4 {
+    color: #FDA4AF;
+    font-family: Figtree;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+}
+
+.container-four .container-card-experience .partisipasi-netcom p {
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    width: 560px;
+}
+
+.container-four .container-card-experience .respon-netcom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-four .container-card-experience .respon-netcom svg {
+    width: 19.584px;
+    height: 13.439px;
+    transform: rotate(-15deg);
+}
+
+.container-four .container-card-experience .respon-netcom h4 {
+    color: #FDA4AF;
+}
+
+.container-four .container-card-experience .respon-netcom ul {
+    padding: 0 20px;
+}
+
+.container-four .container-card-experience .respon-netcom ul li {
+    color: #FFF1F2;
+    font-style: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Content Third End*/
+
 /* Responsive Handphone Start */
 @media (min-width: 320px) and (max-width: 767px){
 
