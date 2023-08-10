@@ -98,6 +98,10 @@
     font-size: 24px;
 }
 
+.container-2 {
+    padding: 211px 100px 100px;
+}
+
 .container-card {
     width: 100%;
     height: 1400px;
@@ -236,7 +240,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 3px;
-    background: var(--tailwind-cyan-900, #164E63);
+    background: #164E63;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 1px 1px 2px 0px rgba(0, 0, 0, 0.10), 3px 3px 4px 0px rgba(0, 0, 0, 0.09), 6px 6px 5px 0px rgba(0, 0, 0, 0.05), 10px 11px 6px 0px rgba(0, 0, 0, 0.01), 16px 17px 7px 0px rgba(0, 0, 0, 0.00);
 }
 
@@ -649,7 +653,7 @@
     }
 
     .container-hero {
-        padding: 100px 40px;
+        padding: 100px 20px;
     }
 
     .user-hero {
@@ -669,25 +673,164 @@
     }
 
     .rectangle {
-        margin: -90px 10px 0 -115px;
+        margin: -90px 10px 0 -138px;
         height: 47px;
         width: 138px;
     }
 
     .hero-text .experience {
-        margin: -60px 40px;
+        margin: -60px 20px;
         font-size: 20px;
     }
 
     .project {
-        font-size: 27px;
+        padding: 0 20px;
+        font-size: 30px;
     }
 
     .paragraf-project {
         padding-top: 20px;
+        font-size: 20px;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .container-2 {
+        padding: 130px 0 0px;
+    }
+
+    .container-card {
+        border-radius: 0;
+        height: 1585px;
+        margin-bottom: 0;
+    }
+    
+    .container-card .container-text-web-design {
+        padding: 3rem 1.5rem;
+    }
+
+    .container-text-web-design .text-heading {
+        font-size: 35px;
+    }
+
+    .description-web-design {
         font-size: 18px;
     }
 
+    .container-text-web-design .desc {
+        padding-top: 3rem;
+        font-size: 18px;
+        line-height: 180.5%;
+    }
+
+    .container-text-web-design .button-figma {
+        width: 100%;
+    }
+
+    .container-text-web-design .links-project {
+        gap: 20px;
+    }
+
+    .container-text-web-design .links-project .vidio {
+        gap: 8px;
+        
+    }
+
+    .container-text-web-design .links-project .vidio .svg-border {
+        height: 50px;
+        
+    }
+
+    .container-third {
+        background-size: 200%;
+        height: 1050px;
+    }
     
+    .container-third .header-text-third {
+        gap: 1rem;
+    }
+
+    .container-third .header-text-third h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .container-third .header-text-third p {
+        font-size: 18px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .container-third svg {
+        height: 100px;
+    }
+
+    .container-third .card-experience {
+        width: 90%;
+        height: 650px;
+        box-shadow: none;
+    }
+
+    .card-experience .gdsc-content {
+        padding: 20px 10px;
+    }   
+
+    .card-experience img {
+        margin: 20%;
+    }
+    
+    .card-experience .gdsc-content .gdsc-name h3 {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .card-experience .partisipasi {
+        padding: 0 20px;
+    }
+
+    .card-experience .partisipasi p {
+        width: 330px;
+    }
+
+    .card-experience .respon {
+        padding: 20px 20px;
+    }
+
+    .line {
+        height: 200px;
+    }
+
+    .container-four {
+        height: 700px;
+    }
+
+    .container-four .container-card-experience {
+        margin-top: -10px;
+        box-shadow: none;
+        width: 90%;
+        height: 690px;
+        padding: 20px 20px;
+    }
+
+    .container-four .container-card-experience .partisipasi-netcom p {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 /* Responsive Handphone End */
