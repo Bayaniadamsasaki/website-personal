@@ -33,7 +33,7 @@
     left: 0;
     max-width: 100%;
     max-height: 100%;
-    background-image: url('/src/assets/Vector.png');
+    background-image: url(assets/Vector.png);
     background-size: 85%;
 }
 
@@ -137,7 +137,7 @@
     height: 368px;
     flex-shrink: 0;
     border-radius: 22px;
-    background: url(../assets/mockup\ porto.png) center / cover no-repeat;
+    background: url(assets/mockup\ porto.png) center / cover no-repeat;
 }
 
 .container-text-web-design .card-web-2 {
@@ -145,7 +145,7 @@
     height: 368px;
     flex-shrink: 0;
     border-radius: 22px;
-    background: url(../assets/foodwtc.png) center / cover no-repeat;
+    background: url(assets/foodwtc.png) center / cover no-repeat;
 }
 
 .container-text-web-design .card-web-3 {
@@ -153,7 +153,7 @@
     height: 368px;
     flex-shrink: 0;
     border-radius: 22px;
-    background: url(../assets/web-wtc-food.png) center / cover no-repeat;
+    background: url(assets/web-wtc-food.png) center / cover no-repeat;
 }
 
 .container-text-web-design .card-web-4 {
@@ -161,7 +161,7 @@
     height: 368px;
     flex-shrink: 0;
     border-radius: 22px;
-    background: url(../assets/Frelancer.png) center / cover no-repeat;
+    background: url(assets/Frelancer.png) center / cover no-repeat;
 }
 
 .container-text-web-design .card-web-5 {
@@ -169,7 +169,7 @@
     height: 368px;
     flex-shrink: 0;
     border-radius: 22px;
-    background: url(../assets/Web\ Hubaidi.png) center / cover no-repeat;
+    background: url(assets/Web\ Hubaidi.png) center / cover no-repeat;
 }
 
 .intro-web-design span {
