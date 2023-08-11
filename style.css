@@ -406,18 +406,25 @@
     box-shadow: 10px 10px 10px #87CEFA;
 }
 
+.container-third .container-card-colum {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
 .card-experience img {
     height: 90%;
-    margin: 5% 0 20% 30%;
+    margin: 5% 0;
 }
 
 .card-experience .gdsc-content {
-    padding: 50px 50px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
-.card-experience .gdsc-content img {
+.card-experience .gdsc-content .img-logo img {
     width: 60px;
     height: 30px;
 }
@@ -441,7 +448,6 @@
 }
 
 .card-experience .partisipasi {
-    padding: 0 67px 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -464,7 +470,6 @@
 }
 
 .card-experience .respon {
-    padding: 0 67px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -668,6 +673,7 @@
     }
 
     .gelombang {
+        display: none;
         width: 280px;
         margin-left: 5px;
     }
@@ -684,8 +690,9 @@
     }
 
     .project {
+        width: 100%;
         padding: 0 20px;
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .paragraf-project {
@@ -743,7 +750,6 @@
 
     .container-third {
         background-size: 200%;
-        height: 1050px;
     }
     
     .container-third .header-text-third {
@@ -767,13 +773,14 @@
 
     .container-third .card-experience {
         width: 90%;
-        height: 650px;
+        height: 690px;
         box-shadow: none;
     }
 
-    .card-experience .gdsc-content {
-        padding: 20px 10px;
-    }   
+
+    .container-third .container-card-colum {
+        padding: 20px 20px;
+    }
 
     .card-experience img {
         margin: 20%;
@@ -784,17 +791,10 @@
         line-height: 120%;
     }
 
-    .card-experience .partisipasi {
-        padding: 0 20px;
-    }
-
     .card-experience .partisipasi p {
         width: 330px;
     }
 
-    .card-experience .respon {
-        padding: 20px 20px;
-    }
 
     .line {
         height: 200px;
@@ -805,7 +805,7 @@
     }
 
     .container-four .container-card-experience {
-        margin-top: -10px;
+        margin-top: -20px;
         box-shadow: none;
         width: 90%;
         height: 690px;
