@@ -112,7 +112,24 @@
     margin-bottom: 20px;
 }
 
+.container-card-2 {
+    width: 100%;
+    height: 1400px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(131deg, rgba(255, 0, 0, 0.1) 0%, rgba(236, 254, 255, 0) 100%), linear-gradient(310deg, rgba(255, 0, 0, 0.2) 0%, rgba(236, 254, 255, 0) 100%), #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.02), 2px 3px 7px 0px rgba(0, 0, 0, 0.02), 7px 11px 13px 0px rgba(0, 0, 0, 0.02), 15px 24px 17px 0px rgba(0, 0, 0, 0.01), 27px 43px 20px 0px rgba(0, 0, 0, 0), 42px 67px 22px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 20px;
+}
+
+
 .container-card .container-text-web-design {
+    max-width: 100%;
+    height: 100%;
+    padding: 3rem 3rem;
+}
+
+.container-card-2 .container-text-web-design {
     max-width: 100%;
     height: 100%;
     padding: 3rem 3rem;
@@ -132,6 +149,84 @@
     padding-bottom: 3rem;
 }
 
+/* Card Web UIX Start */
+
+.container-text-web-design .card-uix-1 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/mockup\ porto.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-2 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/foodwtc.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-3 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/web-wtc-food.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-4 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/WTCHOTEL.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-5 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/Web\ Hubaidi.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-6 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/Frelancer.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-7 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/LoginPage.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-8 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/DESINT.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-uix-9 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/WatchAnime.png) center / cover no-repeat;
+}
+
+/* Card Web UIX End */
+
+/* Card Web Design Start */
+
 .container-text-web-design .card-web-1 {
     width: 368px;
     height: 368px;
@@ -145,7 +240,7 @@
     height: 368px;
     flex-shrink: 0;
     border-radius: 22px;
-    background: url(assets/foodwtc.png) center / cover no-repeat;
+    background: url(assets/commerce.png) center / cover no-repeat;
 }
 
 .container-text-web-design .card-web-3 {
@@ -156,21 +251,49 @@
     background: url(assets/web-wtc-food.png) center / cover no-repeat;
 }
 
-.container-text-web-design .card-web-4 {
-    width: 368px;
-    height: 368px;
-    flex-shrink: 0;
-    border-radius: 22px;
-    background: url(assets/Frelancer.png) center / cover no-repeat;
-}
 
-.container-text-web-design .card-web-5 {
-    width: 368px;
-    height: 368px;
-    flex-shrink: 0;
-    border-radius: 22px;
-    background: url(assets/Web\ Hubaidi.png) center / cover no-repeat;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Card Web Design End */
 
 .intro-web-design span {
     color: #000;
@@ -323,6 +446,11 @@
     padding-top: 2rem;
     gap: 100px;
 }
+.container-text-web-design .technology-use .svg-icons img {
+    /* padding-top: 2rem; */
+    /* gap: 100px; */
+    margin-right: 30px;
+}
 
 .container-text-web-design .technology-use .svg-icons .github-ml {
     margin-right: 30px;
@@ -340,7 +468,7 @@
 /* Content Third Start */
 .container-third {
     max-width: 100%;
-    height: 1100px;
+    height: 1300px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(5, 31, 46, 0.53) 0%, rgba(0, 0, 0, 0.00) 100%), #091F2A;
     background-image: url(/src/assets/Union.png);
@@ -398,7 +526,7 @@
 
 .container-third .card-experience {
     width: 84%;
-    height: 490px;
+    height: 690px;
     flex-shrink: 0;
     border-radius: 16px;
     background: linear-gradient(139deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #091F2A;
@@ -490,6 +618,9 @@
 }
 
 .card-experience .respon ul {
+    width: 100%;
+    display: grid;
+    gap: 10px;
     padding: 0 20px;
 }
 
@@ -522,9 +653,9 @@
 
 .container-four .container-card-experience {
     position: absolute;
-    margin-top: -100px;
+    margin-top: -20px;
     width: 84%;
-    height: 490px;
+    height: 595px;
     flex-shrink: 0;
     border-radius: 16px;
     background: linear-gradient(134deg, #3D0D1B 0%, rgba(61, 13, 27, 0.00) 100%), #280B14;
@@ -609,6 +740,8 @@
 }
 
 .container-four .container-card-experience .respon-netcom ul {
+    display: grid;
+    gap: 10px;
     padding: 0 20px;
 }
 
@@ -712,8 +845,18 @@
         height: 1585px;
         margin-bottom: 0;
     }
+
+    .container-card-2 {
+        border-radius: 0;
+        height: 1585px;
+        margin-bottom: 0;
+    }
     
     .container-card .container-text-web-design {
+        padding: 3rem 1.5rem;
+    }
+
+    .container-card-2 .container-text-web-design {
         padding: 3rem 1.5rem;
     }
 
@@ -750,6 +893,7 @@
     }
 
     .container-third {
+        height: 1800px;
         background-size: 200%;
     }
     
@@ -774,7 +918,7 @@
 
     .container-third .card-experience {
         width: 90%;
-        height: 690px;
+        height: 1400px;
         box-shadow: none;
     }
 
@@ -793,7 +937,7 @@
     }
 
     .card-experience .partisipasi p {
-        width: 330px;
+        width: 100%;
     }
 
 
@@ -802,14 +946,14 @@
     }
 
     .container-four {
-        height: 700px;
+        height: 1100px;
     }
 
     .container-four .container-card-experience {
         margin-top: -20px;
         box-shadow: none;
         width: 90%;
-        height: 690px;
+        height: 1050px;
         padding: 20px 20px;
     }
 
