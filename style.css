@@ -251,6 +251,22 @@
     background: url(assets/web-wtc-food.png) center / cover no-repeat;
 }
 
+.container-text-web-design .card-web-4 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/Web\ Hubaidi.png) center / cover no-repeat;
+}
+
+.container-text-web-design .card-web-5 {
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: url(assets/WTCHOTEL.png) center / cover no-repeat;
+}
+
 
 
 
